@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa6b7298.chunk.css",
+    "main.js": "/static/js/main.4f144edb.chunk.js",
+    "main.js.map": "/static/js/main.4f144edb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.f62e0965.chunk.js": "/static/js/2.f62e0965.chunk.js",
+    "static/js/2.f62e0965.chunk.js.map": "/static/js/2.f62e0965.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ffcad00fec5e5eb09ea300091f5e42b1.js": "/precache-manifest.ffcad00fec5e5eb09ea300091f5e42b1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fa6b7298.chunk.css.map": "/static/css/main.fa6b7298.chunk.css.map",
+    "static/js/2.f62e0965.chunk.js.LICENSE.txt": "/static/js/2.f62e0965.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/circe-rounded-400.b651ece7.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a21426.js",
+    "static/js/2.f62e0965.chunk.js",
+    "static/css/main.fa6b7298.chunk.css",
+    "static/js/main.4f144edb.chunk.js"
+  ]
+}
