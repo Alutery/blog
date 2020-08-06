@@ -8,3 +8,7 @@ pip insatll django
 pip install djangorestframework
 
 ```
+### Run:
+```shell script
+python manage.py runserver
+```
