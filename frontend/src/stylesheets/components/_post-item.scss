@@ -1,0 +1,42 @@
+.posts__item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 20px 40px;
+  text-align: center;
+  overflow: hidden;
+
+  .post {
+    &__date {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+
+      font-size: 1.2rem;
+      line-height: 20px;
+      letter-spacing: -0.416667px;
+      color: #979797;
+    }
+
+    &__title {
+      font-family: 'Circe Rounded', sans-serif;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      font-size: 24px;
+      line-height: 120%;
+      color: #315AF2;
+      flex: 1;
+      margin-top: 35px;
+    }
+
+    &__img {
+      max-width: 100%;
+      height: 112px;
+      object-fit: cover;
+
+    }
+  }
+}

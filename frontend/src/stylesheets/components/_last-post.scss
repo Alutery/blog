@@ -1,0 +1,42 @@
+.last-post {
+  padding: 4rem 0 6.2rem;
+  @extend %border-bottom-line;
+
+  &__container {
+    display: flex;
+  }
+
+  &__text {
+    flex-basis: 60%;
+  }
+
+  &__desc {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 136%;
+    letter-spacing: -0.416667px;
+    max-width: 391px;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-top: 2rem;
+    border-radius: 6px;
+    padding: 8px 18px;
+    text-decoration: none;
+
+    font-family: 'Museo Cyrl', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 35px;
+    letter-spacing: -0.416667px;
+    color: #FFF;
+  }
+
+  &__img {
+    object-fit: contain;
+    max-height: 338px;
+    max-width: 464px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,49 @@
+*, *:after, *:before {
+  box-sizing: content-box;
+}
+
+html, body {
+  font-size: 10px;
+  font-family: 'Circe Rounded', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Museo Cyrl', sans-serif;
+  font-size: 4.4rem;
+  color: $color-heading;
+  line-height: 128%;
+  letter-spacing: -0.416667px;
+}
+
+.main {
+  width: 100%;
+}
+
+.btn {
+  background-color: $color-background-button;
+  cursor: pointer;
+
+  &:hover, &:active {
+    background-color: rgba(49, 90, 242, 0.75);
+  }
+
+  &:disabled {
+    background-color: rgba(49, 90, 242, 0.4);
+  }
+}

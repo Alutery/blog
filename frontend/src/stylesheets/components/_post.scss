@@ -1,0 +1,43 @@
+.post .post {
+  background-color: #E5E5E5;
+  flex-grow: 1;
+
+  &__container {
+    max-width: 607px;
+    padding: 60px 0;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 40rem;
+    font-family: 'Museo Cyrl', sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 128%;
+
+    letter-spacing: -0.416667px;
+
+    color: #315AF2;
+
+  }
+
+  &__img {
+    object-fit: cover;
+    object-position: 0 30%;
+
+    display: block;
+    width: 100%;
+    max-height: 320px;
+    overflow: hidden;
+    margin: 2.4rem auto;
+  }
+
+  &__content, .ck-editor__editable {
+
+  }
+}
+
+.post__content, .ck-editor__editable {
+
+}
